@@ -19,6 +19,7 @@ const fileFilter = (req, file, cb) => {
     cb(null, false);
   }
   //random
+  //random2
 };
 
 const uploadMiddleware = multer({ storage, fileFilter });
